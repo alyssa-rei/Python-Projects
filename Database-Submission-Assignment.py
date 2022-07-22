@@ -15,11 +15,11 @@ with conn:
     conn.commit()
 
 
-
 fileList = ('information.docx', 'Hello.txt', 'myImage.png', \
                 'myMovie.mpg', 'World.txt', 'data.pdf', 'myPhoto.jpg')
 
 print(fileList)
+
 
 # Creating for loop to iterate "fileList",
 # Printing indices ending with ".txt"
