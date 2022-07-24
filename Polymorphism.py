@@ -10,7 +10,7 @@ class Vehicle:
         print('Details:\n', self.make, self.model, self.color)
 
     def top_speed(self):
-        print(' Top speed is x')
+        print(' Top speed is unknown')
 
 
 
