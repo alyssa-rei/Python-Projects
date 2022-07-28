@@ -17,6 +17,9 @@ class Student(Person):
         self.major = major
         self.grad = grad
 
+    def greeting(self):
+        print('Hey {}, what can we help you with?'.format(self.name))
+
     def print_major(self):
         print(' Major: {}'.format(self.major))
 
@@ -31,6 +34,9 @@ class Employee(Person):
         super().__init__(name)
         self.department = department
         self.division = division
+
+    def greeting(self):
+        print('Hi, {}!'.format(self.name))
 
     def print_dept(self):
         print(' Department: {}'.format(self.department))
