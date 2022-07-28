@@ -40,14 +40,14 @@ class Employee(Person):
 
 
 # Calling methods from Student class
-s1 = Student('Zach', 'Business', 2024)
+s1 = Student('Zach', 'Engineering', 2024)
 s1.greeting()
 s1.print_major()
 s1.print_grad()
 
 
 # Calling methods from Employee class
-e1 = Employee('Thomas', 'Science', 'Chemistry')
+e1 = Employee('Brandon', 'Science', 'Chemistry')
 e1.greeting()
 e1.print_dept()
 e1.print_divs()
