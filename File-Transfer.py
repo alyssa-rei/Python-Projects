@@ -80,11 +80,11 @@ class ParentWindow(Frame):
 
             # Moves files that were created/modified within the last day,
             # if none, displays that there are no recent files to be transferred
-            if moddate < recent:
+            if moddate > recent:
                 shutil.move(source +'/'+ i, destination)
                 print(i + ' was successfully transferred.')
             else:
-                print(i + ' is too new to be transferred.')
+                print(i + ' is too old to be transferred.')
                 
             
 
